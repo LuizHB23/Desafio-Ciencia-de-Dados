@@ -43,7 +43,7 @@ def recomendacao(usuario):
             if x in usuario['item id']:
                  filmes_cluster = filmes_cluster[filmes_cluster['item id'] != x]
                  
-        if len(filmes_cluster >= 5):
+        if len(filmes_cluster) >= 5:
             break
 
     df_filmes = df_filmes[df_filmes['movie id'].isin(filmes_cluster['item id'].head())]
