@@ -2,6 +2,8 @@
 
 Este repositório contém a resolução de um desafio intensivo de 6 dias, abrangendo desde a limpeza e análise de dados públicos até a implementação de modelos de Machine Learning com integração em sistemas externos e validação estatística.
 
+Os arquivos foram pensados para serem portáteis, portanto é possível reproduzí-los com um clone.
+
 ---
 
 ## 📅 Estrutura do Desafio
@@ -58,8 +60,6 @@ Utilização do dataset **MovieLens** para criar uma experiência personalizada 
 
 ## 💡 Como Executar
 
-Os arquivos foram pensados para serem portáteis, portanto é possível reproduzí-los com um clone.
-
 1.  **Modelos:** Execute os notebooks para gerar o arquivo `modelo_recomendacao.pkl`.
 2.  **API:** Inicie o serviço .NET para disponibilizar os endpoints de utilizadores.
 3.  **Client:** Execute o `usuario.py` para inserir um ID de utilizador e receber as 5 recomendações de filmes.
@@ -67,6 +67,7 @@ Os arquivos foram pensados para serem portáteis, portanto é possível reproduz
 ---
 
 **Projeto desenvolvido como parte de um desafio prático de Ciência de Dados.**
+
 
 
 
